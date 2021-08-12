@@ -1,0 +1,74 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterhome.master.cs" Inherits="finalyearproject.masterhome" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="~/Styles/mast.css" rel="stylesheet" runat="server" type="text/css" />
+    <script src="Scripts/JScript1.js" type="text/javascript"></script>
+   <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+       
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+    <div style="font-family: 'Wide Latin'; color: #333399; font-weight: 900; font-size: xx-large;" 
+            class="logo">
+        <img src="image/tat-logo (1).png" /></div>
+     <ul class="main-nav">
+         <li>
+            <asp:LinkButton ID="LinkButton1" CssClass="select" runat="server" onclick="LinkButton1_Click">HOME</asp:LinkButton>
+        </li>
+        <li>
+            <asp:LinkButton ID="LinkButton2" CssClass="select" runat="server" onclick="LinkButton2_Click">USER</asp:LinkButton>
+        </li>
+        <li>
+            <asp:LinkButton ID="LinkButton4" runat="server" CssClass="select" onclick="LinkButton4_Click">REGISTER</asp:LinkButton></li>
+        <li>
+            <asp:LinkButton ID="LinkButton3" runat="server" CssClass="select" onclick="LinkButton3_Click">ADMIN</asp:LinkButton>
+        </li>
+        </ul>        
+        </div>
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+          
+       
+        </asp:ContentPlaceHolder>
+        <pre>
+        
+   <table cellspacing="85" cellpadding="20"
+        style="background-image: url('image/download.jpg'); background-repeat:inherit; color: #FFFFFF; font-family: 'times New Roman' , Times, serif;"><tr>
+
+<td>For Online Booking, Cancellation and Refund	
+9659713999 
+helpdesk@tattravels.net
+
+For Boarding assistance 
+9842797399, 7373333399, 9715393999, 9965333499 
+feedback@tattravels.net 
+</td><td style="font-family: 'Gill Sans Ultra Bold Condensed'; font-size: x-large; font-weight: 800; font-style: normal; font-variant: small-caps; text-transform: uppercase; color: #FFFF00">HAVE A SAFE 
+            &
+ HAPPY JOURNEY</td><td>REACH US
+Thirumal Alagu Travels (TAT)
+Shop No 42, Koyambedu Omni Bus Stand,
+Koyambedu, Chennai - 600106,
+
+
+Mobile : 9842797399, 7373333399
+Email: feedback@tattravels.net</td></tr></table>
+    
+    </pre>
+
+    </form>
+</body>
+</html>
